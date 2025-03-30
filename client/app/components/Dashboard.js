@@ -13,7 +13,7 @@ const Dashboard = () => {
   useEffect(() => {
     dispatch(getUserData())
   }, [dispatch]);
-//
+
   return (
     <div className="max-w-3xl mx-auto mt-10 bg-white p-6 rounded shadow">
       <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
